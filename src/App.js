@@ -1,6 +1,7 @@
-import LandingPage from "./components/LandingPage";
-import Navbar from "./components/Navbar";
+import LandingPage from "./pages/LandingPage";
+import Navbar from "./pages/Navbar";
 import UnevenDivider from "./components/UnevenDivider";
+import Capabilities from "./pages/Capabilities";
 export default function App() {
   return (
     <>
@@ -8,6 +9,7 @@ export default function App() {
       <Navbar />
       <LandingPage />
       <UnevenDivider />
+      <Capabilities />
     </>
   );
 }
