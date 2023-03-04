@@ -4,6 +4,7 @@ export default function LandingPage() {
   return (
     <>
       <div className="bg-black w-full px-8">
+        {/* Sticking it to a max width of 71 rem across devices (Dynamic Reponsivity) */}
         <div className="mx-auto max-w-[71rem] flex flex-col pt-16 pb-4 relative overflow-x-hidden | lg:flex-row">
           <LandingPageAnimation />
 
