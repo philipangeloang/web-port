@@ -332,6 +332,63 @@ export default function Capabilities() {
             </div>
           </div>
         </div>
+
+        <hr className="mx-[-30px] mt-10" />
+        <div className="py-10 w-full flex flex-col items-center justify-center">
+          <div className="grid gap-5 items-center w-full | grid-cols-5 | lg:grid-cols-10">
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/J4LfFfo.png"
+              alt="html"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/kWPXSLh.png"
+              alt="css"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/CbQ4aMM.png"
+              alt="js"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/j5NhgMJ.png"
+              alt="node"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/eos2pRV.png"
+              alt="express"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/ZlQYPDz.png"
+              alt="mongoDB"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/ifVWdgc.png"
+              alt="react"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/8bFfT1d.png"
+              alt="next"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/CISHALy.png"
+              alt="tailwind"
+            />
+            <img
+              className="w-4/5 hover:scale-[1.3] transition-transform duration-300"
+              src="https://i.imgur.com/wylDbV6.png"
+              alt="bootstrap"
+            />
+          </div>
+        </div>
+        <hr className="mx-[-30px] mb-10" />
       </div>
     </>
   );

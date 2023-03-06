@@ -4,6 +4,8 @@ import UnevenDivider from "./components/UnevenDivider";
 import UnevenDividerFlipped from "./components/UnevenDividerFlipped";
 import Capabilities from "./pages/Capabilities";
 import MyWorks from "./pages/MyWorks";
+import Contacts from "./pages/Contacts";
+import Footer from "./pages/Footer";
 export default function App() {
   return (
     <>
@@ -14,6 +16,9 @@ export default function App() {
       <Capabilities />
       <UnevenDividerFlipped />
       <MyWorks />
+      <UnevenDivider />
+      <Contacts />
+      <Footer />
     </>
   );
 }
