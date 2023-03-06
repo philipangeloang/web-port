@@ -3,7 +3,7 @@ import LandingPageAnimation from "../components/LandingPageAnimation";
 export default function LandingPage() {
   return (
     <>
-      <div className="bg-black w-full px-8">
+      <div id="home" className="bg-black w-full px-8">
         {/* Sticking it to a max width of 71 rem across devices (Dynamic Reponsivity) */}
         <div className="mx-auto max-w-[71rem] flex flex-col pt-16 pb-4 relative overflow-x-hidden | lg:flex-row">
           <LandingPageAnimation />
@@ -36,10 +36,12 @@ export default function LandingPage() {
 
             {/* Be in touch button */}
             <div className="flex flex-col z-10 mt-20 | lg:w-[35rem] lg:flex-row">
-              <p className="flex justify-center items-center bg-main-blue h-[3.3rem] py-4 px-8 rounded-lg font-semibold cursor-pointer hover:bg-main-violet transition-colors duration-300 mx-auto text-base | lg:mx-0 ">
-                <span className="mr-2">Be in touch </span>
-                <i class="fa-solid fa-arrow-right"></i>
-              </p>
+              <a href="#contact">
+                <p className="flex justify-center items-center bg-main-blue h-[3.3rem] py-4 px-8 rounded-lg font-semibold cursor-pointer hover:bg-main-violet transition-colors duration-300 mx-auto text-base | lg:mx-0 ">
+                  <span className="mr-2">Be in touch</span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                </p>
+              </a>
 
               <p className=" text-gray-400 font-medium tracking-normal leading-6 mt-5 mx-auto | md:w-[18rem] | lg:mt-0 lg:w-[20rem] | 3xl:text-base">
                 I am a web developer based on the Philippines. I design
@@ -52,7 +54,7 @@ export default function LandingPage() {
             <div className="flex z-10 mt-20 cursor-pointer group mx-auto mb-16 | lg:mx-0 lg:mb-28">
               <i class="fa-solid fa-chevron-down fa-lg flex justify-center items-center h-11 w-11 mr-4 bg-gray-800 rounded-full group-hover:bg-main-blue transition-colors duration-300"></i>
               <p className="flex justify-center items-center text-gray-400 font-medium">
-                Here is how can I help you
+                <a href="#capabilities">Here is how I can help you</a>
               </p>
             </div>
           </div>

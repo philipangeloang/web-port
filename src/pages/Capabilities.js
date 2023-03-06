@@ -1,7 +1,7 @@
 export default function Capabilities() {
   return (
     <>
-      <div className="w-full px-8">
+      <div id="capabilities" className="w-full px-8">
         {/* Dynamic Responsivity */}
         <div className="mx-auto max-w-[71rem] flex flex-col pb-4 overflow-x-hidden">
           {/* Quote with Border */}
@@ -20,7 +20,7 @@ export default function Capabilities() {
             <p className="font-poppins font-semibold text-[1.35rem] text-center mt-4 leading-[1.2] text-xs | md:text-[1rem] | lg:text-[1.35rem]">
               Crafting high quality{" "}
               <span className=" bg-black text-white rounded-xl p-[0.2rem] text-xs cursor-pointer transition-colors duration-300 hover:bg-main-violet | md:text-[1rem] | lg:text-[1.35rem]">
-                products and services{" "}
+                <a href="#works">products and services </a>
                 <i class="fa-solid fa-arrow-up-right-from-square ml-1"></i>
               </span>{" "}
               with empathy, creativity, and intricacy.
@@ -311,15 +311,19 @@ export default function Capabilities() {
                 </p>
 
                 <div className="flex flex-col items-center | xl:items-start ">
-                  <div className="font-poppins font-semibold px-5 py-3 rounded-lg cursor-pointer transition-colors duration-300 bg-main-blue hover:bg-main-violet text-white mt-5 max-w-[10rem] text-xs | sm:text-base">
-                    <span className="mr-2">Contact me</span>
-                    <i class="fa-solid fa-arrow-right"></i>
-                  </div>
+                  <a href="#contact">
+                    <div className="font-poppins font-semibold px-5 py-3 rounded-lg cursor-pointer transition-colors duration-300 bg-main-blue hover:bg-main-violet text-white mt-5 max-w-[10rem] text-xs | sm:text-base">
+                      <span className="mr-2">Contact me</span>
+                      <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                  </a>
 
-                  <div className="font-poppins text-gray-700 font-semibold px-5 py-3 rounded-lg cursor-pointer transition-colors duration-300border mt-5 max-w-[10rem] hover:bg-gray-500 hover:text-white border text-xs | sm:text-base">
-                    <span className="mr-5">My Works</span>
-                    <i class="fa-solid fa-briefcase"></i>
-                  </div>
+                  <a href="#works">
+                    <div className="font-poppins text-gray-700 font-semibold px-5 py-3 rounded-lg cursor-pointer transition-colors duration-300border mt-5 max-w-[10rem] hover:bg-gray-500 hover:text-white border text-xs | sm:text-base">
+                      <span className="mr-5">My Works</span>
+                      <i class="fa-solid fa-briefcase"></i>
+                    </div>
+                  </a>
                 </div>
               </div>
 

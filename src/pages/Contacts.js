@@ -1,7 +1,7 @@
 export default function Contacts() {
   return (
     <>
-      <div className="w-full px-8">
+      <div id="contact" className="w-full px-8">
         <div className="mx-auto max-w-[71rem] flex flex-col pb-4 overflow-x-hidden">
           <h1 className="font-dmsans text-center text-3xl | lg:text-5xl">
             Get in Touch

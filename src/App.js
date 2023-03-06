@@ -9,7 +9,6 @@ import Footer from "./pages/Footer";
 export default function App() {
   return (
     <>
-      <input type="checkbox" id="navToggle" className="hidden" />
       <Navbar />
       <LandingPage />
       <UnevenDivider />

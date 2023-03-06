@@ -3,7 +3,7 @@ import LandingPageAnimation from "../components/LandingPageAnimation";
 export default function MyWorks() {
   return (
     <>
-      <div className="bg-black w-full px-8">
+      <div id="works" className="bg-black w-full px-8">
         {/* Sticking it to a max width of 71 rem across devices (Dynamic Reponsivity) */}
         <div className="mx-auto max-w-[71rem] flex flex-col pt-16 pb-24 relative overflow-x-hidden  ">
           <LandingPageAnimation />

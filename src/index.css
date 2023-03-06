@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .area{
@@ -109,25 +110,4 @@
     }
 }
 
-#navToggle:checked + div .hamburger > label > .top {
--webkit-transform: rotate(-45deg);
-transform: rotate(-45deg);
-margin-top: 5px;
-}
-
-#navToggle:checked + div .hamburger > label > .mid {
--webkit-transform: rotate(45deg);
-transform: rotate(45deg);
-margin-top: -7px;
-}
-
-#navToggle:checked + div .hamburger > label > .bot {
--webkit-transform: scale(0);
-transform: scale(0);
-}
-
-#navToggle:checked ~ .popup {
-    display: block;
-    opacity: 1;
-}
 
