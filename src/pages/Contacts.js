@@ -8,7 +8,7 @@ export default function Contacts() {
           </h1>
 
           <div className="flex justify-center my-56">
-            <a href="https://www.linkedin.com/in/philip-ang-5aa223255/">
+            <a href="https://www.linkedin.com/in/philip-ang/">
               <div className="flex justify-center items-center border-black border p-2 h-[3rem] w-[3rem] mx-3 rounded-lg hover:scale-[1.3] transition-transform duration-300 cursor-pointer">
                 <i class="fa-brands fa-linkedin fa-2x"></i>
               </div>
