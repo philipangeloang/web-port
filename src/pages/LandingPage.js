@@ -36,12 +36,13 @@ export default function LandingPage() {
 
             {/* Be in touch button */}
             <div className="flex flex-col z-10 mt-20 | lg:w-[35rem] lg:flex-row">
-              <a href="#contact">
-                <p className="flex justify-center items-center bg-main-blue h-[3.3rem] py-4 px-8 rounded-lg font-semibold cursor-pointer hover:bg-main-violet transition-colors duration-300 mx-auto text-base | lg:mx-0 ">
-                  <span className="mr-2">Be in touch</span>
-                  <i class="fa-solid fa-arrow-right"></i>
-                </p>
-              </a>
+              <p className="flex justify-center items-center bg-main-blue h-[3.3rem] py-4 px-8 rounded-lg font-semibold cursor-pointer hover:bg-main-violet transition-colors duration-300 mx-auto text-base | lg:mx-0 ">
+                <span className="mr-2">
+                  {" "}
+                  <a href="#contact">Be in touch</a>
+                </span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </p>
 
               <p className=" text-gray-400 font-medium tracking-normal leading-6 mt-5 mx-auto | md:w-[18rem] | lg:mt-0 lg:w-[20rem] | 3xl:text-base">
                 I am a web developer based on the Philippines. I design

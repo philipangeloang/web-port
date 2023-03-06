@@ -39,7 +39,10 @@ export default function Navbar() {
           </div>
 
           {/* Contact Button */}
-          <a href="#contact">
+          <a
+            className="hidden lg:flex lg:justify-center lg:items-center"
+            href="#contact"
+          >
             <div className="hidden font-poppins font-bold text-[0.8rem] px-3 py-2 rounded-lg cursor-pointer transition-colors duration-300 bg-main-blue hover:bg-main-violet | lg:flex lg:justify-center lg:items-center">
               <span className="mr-2">Contact me</span>
               <i class="fa-solid fa-rocket fa-xl"></i>
